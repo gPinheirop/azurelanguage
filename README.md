@@ -6,6 +6,14 @@
 This repo uses azure language service to get some valueable data from text imputs
 
 ## How to run it
+create a env.js file on the project's root, add:
+```javascript
+        export const env = {
+                LANGUAGE_KEY: "your-azure-key",
+                LANGUAGE_ENDPOINT: "your-service-endpoint"
+        }
+```
+and run 
 ```bash
 node src/index.js
 ```
