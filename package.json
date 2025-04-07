@@ -1,0 +1,14 @@
+{
+  "name": "azurelanguage",
+  "version": "1.0.0",
+  "description": "a azure language service test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gPinheirop",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/ai-language-text": "^1.1.0"
+  }
+}
