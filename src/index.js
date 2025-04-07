@@ -5,19 +5,11 @@ import {
   TextAnalysisClient,
 } from "@azure/ai-language-text";
 import { env } from "../env.js";
+import { documents } from "./data/input.js";
 
 // This example requires environment variables named "LANGUAGE_KEY" and "LANGUAGE_ENDPOINT"
 const key = env.LANGUAGE_KEY;
 const endpoint = env.LANGUAGE_ENDPOINT;
-
-//an example document for sentiment analysis and opinion mining
-const documents = [
-  {
-    text: "The food and service were unacceptable. The concierge was nice, however.",
-    id: "0",
-    language: "en",
-  },
-];
 
 async function main() {
   console.log("=== Sentiment analysis and opinion mining sample ===");
